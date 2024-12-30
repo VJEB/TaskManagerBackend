@@ -37,6 +37,7 @@ async function bootstrap() {
   );
 
   console.log('[CONSOLE LOG] process.env.PORT: ' + process.env.PORT);
+  console.log('[CONSOLE LOG] process.env.PORT: ' + process.env.MONGO_URI);
 
   await app.listen(port, "0.0.0.0");
 }
