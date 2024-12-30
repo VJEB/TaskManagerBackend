@@ -5,7 +5,7 @@ import { AllExceptionsFilter } from './all-exceptions.filter';
 import { ValidationPipe } from '@nestjs/common';
 import * as dotenv from 'dotenv';
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 dotenv.config(); 
 
 async function bootstrap() {
